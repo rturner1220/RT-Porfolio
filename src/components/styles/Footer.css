@@ -1,0 +1,37 @@
+.footer {
+    width: 100%;
+    background-image: url('../../images/header.jpg');
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    margin-top: 200px;
+}
+
+p {
+    padding-bottom: 30px;
+}
+
+.socialMedia svg {
+    color: white;
+    font-size: 70px;
+    cursor: pointer;
+    margin-left: 20px;
+
+}
+
+.socialMedia {
+    text-align: center;
+}
+
+.footer p {
+    color: white;
+
+}
+
+
+@media only screen and (max-width: 600px) {
+    .footer svg {
+        font-size: 50px;
+    }
+}

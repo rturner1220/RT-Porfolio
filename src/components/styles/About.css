@@ -1,0 +1,44 @@
+.about {
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.about h2 {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 80px;
+    color: white;
+    margin-top: -35%;
+    text-align: center;
+    justify-content: center;
+}
+
+p {
+    margin-bottom: -30%;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.about {
+    width: 100%;
+    font-size: 30px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .about h2 {
+        font-size: 40px;
+    }
+
+    .about {
+        margin-top: 10px;
+        font-size: 20px;
+        width: 80%;
+    }
+}

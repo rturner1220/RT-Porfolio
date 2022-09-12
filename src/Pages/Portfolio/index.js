@@ -1,8 +1,11 @@
 import React from 'react'
+import '../../components/styles/Portfolio.css'
 
 function index() {
     return (
-        <div>Portfolio</div>
+        <div className='portfolio'>
+            <h1>Portfolio</h1>
+        </div>
     )
 }
 
