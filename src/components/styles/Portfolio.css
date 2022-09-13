@@ -1,8 +1,77 @@
-.portfolio {
-    font-size: 30px;
+.projects {
+    font-size: 25px;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     color: white;
+}
+
+
+.projects {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.portfolioList {
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+}
+
+/* MENU ITEM STYLING */
+
+.portfolio {
+    border-radius: 15px;
+    width: 450px;
+    margin: 20px;
+    box-shadow: 0px 3px 25px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.portfolio:hover {
+    box-shadow: 0px 3px 25px rgba(0, 0, 0, 0.5);
+    transition: 0.3s ease-in;
+    cursor: pointer;
+}
+
+.portfolio .bgImage {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+@media only screen and (max-width: 1300px) {
+    .portfolioList {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .portfolioList {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .portfolioList {
+        width: 100%;
+    }
+
+    .portfolio {
+        width: 300px;
+        height: 300px;
+    }
 }

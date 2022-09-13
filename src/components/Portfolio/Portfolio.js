@@ -1,5 +1,5 @@
-import React from 'react'
-
+import React from 'react';
+import '../styles/Portfolio.css';
 function Portfolio({ image, name }) {
     return (
         <div className='portfolio'>
