@@ -10,11 +10,12 @@ function index() {
             <h1>Portfolio</h1>
             <div className='portfolioList'>
                 {PortfolioList.map((project) => {
-                    return <Portfolio name={project.name} image={project.image} />
+                    return <Portfolio name={project.name} image={project.image} link={project.link} />
                 })}
             </div>
         </div>
     )
 }
+
 
 export default index

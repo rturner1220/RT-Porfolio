@@ -9,6 +9,7 @@ export const PortfolioList = [
     {
         name: "HTML - CSS - JavaScript",
         image: Proj1,
+        link: "https://github.com/rturner1220/password-generator"
     },
     {
         name: "JQuery - Moment.js",

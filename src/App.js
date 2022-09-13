@@ -1,7 +1,7 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import About from './Pages/About';
-import Contact from './Pages/Contact';
+import ContactForm from './Pages/Contact';
 import Portfolio from './Pages/Portfolio';
 import Resume from './Pages/Resume';
 import Nav from './components/Nav/';
@@ -17,7 +17,7 @@ function App() {
         <Routes>
           <Route path='/' element={<About />} />
           <Route path='/about' element={<About />} />
-          <Route path='/contact' element={<Contact />} />
+          <Route path='/contact' element={<ContactForm />} />
           <Route path='/portfolio' element={<Portfolio />} />
           <Route path='/Resume' element={<Resume />} />
         </Routes>
